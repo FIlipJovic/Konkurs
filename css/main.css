@@ -1,0 +1,828 @@
+/* ==========================================================================
+   Responsive CSS
+   ========================================================================== */
+
+* {
+    box-sizing: border-box;
+	margin: 0;
+	padding: 0;	
+	
+}
+
+
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+[class*="col-"] {
+    float: left;
+	padding: 0px;
+   
+}
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+body p {
+color : #141414;
+
+}
+body h1, h2, h3, h4, h5, h6 {
+color : #141414;
+text-transform : capitalize;
+text-transform : uppercase;
+}
+
+
+/* ==========================================================================
+   Header
+   ========================================================================== */
+
+.container{
+		
+		background-image: url("../img/background.jpg");
+		background-repeat: no-repeat;
+		
+		width: 1348px;
+		height: 636px;
+		z-index: 1;
+		
+	
+}
+
+#logo {
+	
+	margin-top: 0%;
+	margin-left: 15%;
+	
+	
+}
+
+
+
+/* ==========================================================================
+   Navigacija 
+   ========================================================================== */
+
+.navigacija ul{
+		
+		margin-top:  -3%;
+		margin-bottom: 2%;
+		margin-left: 62%;
+		text-decoration: none;
+		list-style-type: none;
+		overflow: hidden;
+		
+	
+	
+	
+}
+
+.navigacija li{
+		
+		 float: left;
+		 font-family: "Arial", Arial, serif;
+		padding: 8px 15px;
+		 text-decoration: none;
+		 color: white;
+	
+	
+	
+}  
+
+/* unvisited link */
+a:link {
+    color: black;
+	text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+    color: black;
+	text-decoration: none;
+}
+
+/* mouse over link */
+a:hover {
+    color: black;
+	text-decoration: none;
+}
+
+/* selected link */
+a:active {
+    color: #e2e2e2;
+	text-decoration: none;
+}
+
+
+
+.header_text h1 {
+	
+	margin-top: 9%;
+	text-align: center;
+	font-size: 70px;
+	
+	
+	
+	
+}
+
+#only_mobile0 {
+	 
+	 display:none;
+ }
+
+
+ #only_mobile {
+	 
+	 display:none;
+ }
+
+ #crta {
+	
+	margin-top: 1%;
+	margin-left: 47%;
+	margin-bottom: 5%;
+	
+	
+	
+}
+
+
+#par p {
+	
+	margin-top: 0%;
+	width: 100%;
+    text-align: center;
+	font-size: 25px;
+	
+		
+	
+	
+}
+/* ==========================================================================
+   Front_End
+   ========================================================================== */
+
+.front {
+	
+	margin-top: -5%;
+	margin-bottom: 5%;
+    text-align: center;
+	 
+	
+	
+	
+}
+
+.front h1{
+	
+	margin-top: 9%;
+	margin-bottom: 3%;
+    text-align: center;
+	font-family: "Arial", Arial, serif;
+	
+	
+	
+}
+
+
+.front p{
+	
+	margin-top: 17%;
+	margin-bottom: 13%;
+	padding: 0px 20px;
+    text-align: center;
+	font-family: "Arial", Arial, serif;
+	
+	
+	
+	
+}
+
+
+.front #krug {
+	
+	background-color: #e2e2e2;
+	z-index: -1;
+	
+	
+}
+
+#crta1 {
+	
+	margin-top: 3%;
+	margin-left: 81%;
+	margin-bottom: 5%;
+	
+	
+	
+}
+
+#trougao {
+	
+	margin-top: 8%;
+	
+	
+	
+}
+
+#spusteno {
+	
+	margin-top: 24%;
+	
+}
+
+#kocka {
+	
+	margin-top: 8%;
+}
+
+
+/* ==========================================================================
+   Poslovi
+   ========================================================================== */
+
+ #boja {
+	 
+	  background-color: white !important;
+ } 
+ 
+#srednji_deo{
+	
+	margin-top: 12%;
+	
+	
+}
+   
+   
+#srednji_deo h4{
+	
+	margin-top: 1%;
+	margin-bottom: 2%;
+    text-align: center;
+	font-size: 16px;
+	font-family: "Arial", Arial, serif;
+	color: #e2e2e2;
+	
+}
+   
+   
+   
+   
+#srednji_deo h1{
+	
+	margin-top: 1%;
+	margin-bottom: 3%;
+    text-align: center;
+	font-size: 45px;
+	font-family: "Arial", Arial, serif;
+	
+}
+
+#crta2 {
+	
+	margin-top: 3%;
+	margin-left: 49%;
+	margin-bottom: 5%;
+	
+	
+	
+}
+   
+   
+   
+#srednji_deo p{
+	
+	margin-top: 1%;
+	margin-bottom: 3%;
+    text-align: center;
+	font-size: 25px;
+	font-family: "Arial", Arial, serif;
+	
+}
+/* ==========================================================================
+   Frond developer oglas
+   ========================================================================== */
+#front_developer {
+		background-color: white;
+		margin-top:  0%;
+		margin-left: 0%;
+		text-align: left;
+		font-family: "Arial", Arial, serif;
+	
+	
+	
+}
+
+
+#front_developer h1{
+		
+		margin-top:  2%;
+		margin-left: 30%;
+		font-size: 22px;
+		
+		
+	
+	
+	
+}
+
+
+#front_developer p{
+		margin-left: 30%;
+		margin-top:  2%;
+		font-size: 18px;
+		
+		
+	
+	
+	
+}
+
+#front_developer ul{
+		margin-left: 30%;
+		margin-top:  2%;
+		margin-bottom: 5%;
+		list-style-type: none;
+		overflow: hidden;
+		
+	
+	
+	
+}
+
+#front_developer li{
+		
+		 float: left;
+		 border: 1px solid #898989;
+		 border-radius: 2px;
+		 margin: 3px;
+		 padding: 8px 16px;
+		 color: red;
+	
+	
+	
+}
+
+#dugme {
+	
+																																		 
+		float: right;
+		 border: 1px solid #898989;
+		 border-radius: 2px;
+		 margin-left: 20%;
+		 padding: 8px 16px;
+		 color: red;
+	
+}
+
+
+/* ==========================================================================
+   Project menager oglas
+   ========================================================================== */
+
+#project_menager {
+		
+		
+		margin-top:  0%;
+		width: 100%;
+		background-color: black;
+		text-align: left;
+		font-family: "Arial", Arial, serif;
+	
+	
+	
+}
+
+#project_menager h1{
+		
+		margin-top:  2%;
+		margin-left: 30%;
+		font-size: 22px;
+		color: white;
+		
+		
+	
+	
+	
+}
+
+#project_menager p{
+		
+		margin-top:  2%;
+		margin-left: 30%;
+		font-size: 18px;
+		color: white;
+		
+		
+	
+	
+	
+}
+
+#project_menager ul{
+		
+		margin-top:  2%;
+		margin-bottom: 2%;
+		margin-left: 30%;
+		list-style-type: none;
+		overflow: hidden;
+		
+	
+	
+	
+}
+
+#project_menager li{
+		
+		 float: left;
+		 border: 1px solid white;
+		 border-radius: 2px;
+		 margin: 3px;
+		 padding: 8px 16px;
+		 color: white;
+	
+	
+	
+}
+
+	
+
+/* ==========================================================================
+	Developer oglas
+   ========================================================================== */
+
+ 
+#developer {
+		
+		margin-top:  0%;
+		padding-left: 15%;
+		
+		background-color: white ;
+		text-align: left;
+		font-family: "Arial", Arial, serif;
+	
+	
+	
+}
+
+#developer h1 {
+		
+		margin-top: 2%;
+		
+}
+
+
+#developer p{
+		
+		margin-top:  2%;
+		font-size: 18px;
+		
+		
+	
+	
+	
+}
+
+#developer ul{
+		
+		margin-top:  2%;
+		margin-bottom: 5%;
+		list-style-type: none;
+		overflow: hidden;
+		
+	
+	
+	
+}
+
+#developer li{
+		
+		 float: left;
+		 border: 1px solid #898989;
+		 border-radius: 2px;
+		 margin: 3px;
+		 padding: 8px 16px;
+		 color: red;
+	
+	
+	
+}
+
+
+
+#ucitaj {
+		background-color: white;
+		text-align: center;
+	
+}
+
+.button {
+	
+    background-color: #C4C0C0;
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 4%;
+	margin-bottom: 9%;
+    cursor: pointer;
+}
+
+
+.button1 {
+	
+    background-color: white;
+    border: 2px solid #B6A8A8;
+	border-radius: 3px;
+    color: black;
+	margin-left: 260px;
+    padding: 10px 50px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 4%;
+	margin-bottom: 9%;
+    cursor: pointer;
+}
+
+
+.button2 {
+	
+    background-color: black;
+    border: 2px solid white;
+	border-radius: 3px;
+    color: white;
+	margin-left: 260px;
+    padding: 10px 50px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 8%;
+	margin-bottom: 9%;
+    cursor: pointer;
+}
+
+.button3 {
+	
+    background-color: white;
+    border: 2px solid #B6A8A8;
+	border-radius: 3px;
+    color: black;
+	margin-left: 160px;
+    padding: 10px 50px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 8%;
+	margin-bottom: 9%;
+    cursor: pointer;
+}
+
+
+
+
+/* ==========================================================================
+   O Nama
+   ========================================================================== */
+
+#o_nama {
+	
+	margin-top: 0%;
+	background-color: #F9F6F6;
+	
+	
+	
+}
+   
+   
+#o_nama h4{
+	
+	margin-top: 5%;
+	margin-bottom: 2%;
+    text-align: center;
+	font-size: 16px;
+	font-family: "Arial", Arial, serif;
+	color: #DBD7D7;
+	
+}
+   
+   
+   
+   
+#o_nama h1{
+	
+	margin-top: 1%;
+	margin-bottom: 3%;
+    text-align: center;
+	font-size: 45px;
+	font-family: "Arial", Arial, serif;
+	
+}
+
+#crta2 {
+	
+	margin-top: 3%;
+	margin-left: 49%;
+	margin-bottom: 5%;
+	
+	
+	
+}
+   
+   
+   
+#o_nama p{
+	
+	margin-top: 1%;
+	margin-left: 14%;
+	margin-bottom: 7%;
+    text-align: justify;
+	font-size: 20px;
+	font-family: "Arial", Arial, serif;
+	
+}
+/* ==========================================================================
+   O Nama
+   ========================================================================== */
+   
+#linkovi {
+	margin-top:  0%;
+	text-align:center;
+	background-color: white;
+	
+}
+
+#linkovi h4{
+	margin-top:  5%;
+	color: #C4C0C0;
+}
+
+#linkovi ul{
+		
+		margin-top:  2%;
+		margin-bottom: 2%;
+		margin-left: 44%;
+		
+		list-style-type: none;
+		overflow: hidden;
+		
+	
+	
+	
+}
+
+#linkovi li{
+		
+		 float: left;
+		 border: 1px solid white;
+		 
+		
+		 padding: 8px 6px;
+		 color: white;
+	
+	
+	
+}  
+
+/* ==========================================================================
+   Section Mapa
+   ========================================================================== */
+   
+ #maps  {
+		
+		
+	   text-align: center;
+	   margin-left: -5%;
+	   background-color: #2F2E2E;
+	    
+   }
+ 
+ #razmak {
+	 
+		padding-top: 8%;
+		padding-bottom: 9%;
+	 
+ }
+ 
+ #maps img {
+	
+	display:inline;
+	vertical-align:middle;
+	
+
+ }  
+  #maps h4 {
+	  
+	  color: white;
+	  display:inline;
+	  
+	  vertical-align: middle;
+	 font-family: "Arial", Arial, serif;
+	  font-size: 12px;
+	  
+  }
+  
+  #maps p {
+	  
+	  text-align: justify;
+	  color: #6C6969;
+	  padding-left: 42%;
+	  
+	  
+  }
+
+  /* ==========================================================================
+   footer
+   ========================================================================== */
+   
+   
+   
+  #prava {
+	  margin-top: 0%;
+	  
+	  background-color: #1F1E1E;
+	  
+	  
+	  
+  } 
+  
+  
+  #prava p {
+	  margin-bottom: 8px;
+	  padding-top: 7px;
+	  padding-left: 15%;
+	  font-family: "Arial", Arial, serif;
+	  font-size: 12px;
+	  color: #6C6969;
+  }
+  
+  
+  #prava1 h4 {
+	  
+	  margin-left: -13%;
+	 
+	  padding-bottom: 4px;
+	  padding-top: 11px;
+	 background-color: #1F1E1E;
+	  padding-left: 4%;
+	  font-family: "Arial", Arial, serif;
+	  font-size: 12px;
+	  text-transform: lowercase;
+	  color: #6C6969;
+  }
+  
+  
+ #prava ul{
+		
+		margin-top:  1%;
+		margin-bottom: 1px;
+		margin-left: 62%;
+		padding-bottom: 2px;
+		list-style-type: none;
+		overflow: hidden;
+		
+	
+	
+	
+}
+
+#prava li{
+		
+		 float: left;
+		 padding-left: 20px;
+		
+		 color: white;
+	
+	
+	
+}  
+	
+#samo_mobilni_footer {
+		
+		display:none;
+	}
+
+
+
+
+
+
